@@ -39,7 +39,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint6.Review
             }
         }
 
-        private void buttonGenerateMatrix_Click(object sender, EventArgs e)
+        private void buttonGenerateMatrix_AMD_Click(object sender, EventArgs e)
         {
             try
             {

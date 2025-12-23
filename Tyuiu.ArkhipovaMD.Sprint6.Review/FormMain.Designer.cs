@@ -37,7 +37,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint6.Review
             textBoxEnd_AMD = new TextBox();
             textBoxTargetRow_AMD = new TextBox();
             panelActions_AMD = new Panel();
-            buttonGenerateMatrix = new Button();
+            buttonGenerateMatrix_AMD = new Button();
             buttonCompile_AMD = new Button();
             labelTargetRow_AMD = new Label();
             labelEnd_AMD = new Label();
@@ -126,7 +126,7 @@ namespace Tyuiu.ArkhipovaMD.Sprint6.Review
             // 
             panelActions_AMD.BackColor = SystemColors.ActiveCaption;
             panelActions_AMD.BackgroundImageLayout = ImageLayout.Center;
-            panelActions_AMD.Controls.Add(buttonGenerateMatrix);
+            panelActions_AMD.Controls.Add(buttonGenerateMatrix_AMD);
             panelActions_AMD.Controls.Add(buttonCompile_AMD);
             panelActions_AMD.Controls.Add(labelTargetRow_AMD);
             panelActions_AMD.Controls.Add(labelEnd_AMD);
@@ -148,15 +148,15 @@ namespace Tyuiu.ArkhipovaMD.Sprint6.Review
             panelActions_AMD.Size = new Size(890, 76);
             panelActions_AMD.TabIndex = 8;
             // 
-            // buttonGenerateMatrix
+            // buttonGenerateMatrix_AMD
             // 
-            buttonGenerateMatrix.Location = new Point(820, 12);
-            buttonGenerateMatrix.Name = "buttonGenerateMatrix";
-            buttonGenerateMatrix.Size = new Size(62, 56);
-            buttonGenerateMatrix.TabIndex = 16;
-            buttonGenerateMatrix.Text = "Generate";
-            buttonGenerateMatrix.UseVisualStyleBackColor = true;
-            buttonGenerateMatrix.Click += buttonGenerateMatrix_Click;
+            buttonGenerateMatrix_AMD.Location = new Point(820, 12);
+            buttonGenerateMatrix_AMD.Name = "buttonGenerateMatrix_AMD";
+            buttonGenerateMatrix_AMD.Size = new Size(62, 56);
+            buttonGenerateMatrix_AMD.TabIndex = 16;
+            buttonGenerateMatrix_AMD.Text = "Generate";
+            buttonGenerateMatrix_AMD.UseVisualStyleBackColor = true;
+            buttonGenerateMatrix_AMD.Click += buttonGenerateMatrix_AMD_Click;
             // 
             // buttonCompile_AMD
             // 
@@ -267,6 +267,6 @@ namespace Tyuiu.ArkhipovaMD.Sprint6.Review
         private Label labelCol_AMD;
         private Label labelRow_AMD;
         private Button buttonCompile_AMD;
-        private Button buttonGenerateMatrix;
+        private Button buttonGenerateMatrix_AMD;
     }
 }
